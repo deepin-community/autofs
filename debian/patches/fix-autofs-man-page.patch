@@ -1,0 +1,11 @@
+--- a/man/autofs.5
++++ b/man/autofs.5
+@@ -406,7 +406,7 @@
+ .br
+ The \fBxhost()\fP selector compares \fBhostname\fP to the \fB${host}\fP
+ and if it doesn't match it attempts to lookup the cannonical name
+-of \fBhostname\fP and compares it to \f${host}\fP as well.
++of \fBhostname\fP and compares it to \fB${host}\fP as well.
+ .TP
+ .B exists(filename)
+ .br
